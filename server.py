@@ -18,3 +18,6 @@ received_string_decriptografada = rsa.decryptMSG(received_string_criptografada)
 print("após a descriptografia ficou : {} ".format(received_string_decriptografada))
 client.close()
 server.close()
+
+
+
