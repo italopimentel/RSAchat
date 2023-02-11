@@ -9,6 +9,6 @@ port = 15560
 
 client.connect((host, port))
 print('Conectando...')
-string_to_send = crypto.criptyMSG(input('Digite a mensagem: '))
-client.send(string_to_send.encode('utf-8'))
+string_to_send = crypto.encryptMSG(input('Digite a mensagem: '))
+client.send(string_to_send.encode("utf-8"))
 
